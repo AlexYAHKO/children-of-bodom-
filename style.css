@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  /*  background: url(./imagens/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background: cover;*/
+   
+    background: url(./imagens/maxresdefault.jpg) no-repeat top center/cover;
+} 
+ body *{
+    font-family: 'Inter Tight', sans-serif;
+    color: gray;
+    
+}  
+
+#container-1{
+    width: 386px;
+    border: 1px solid black;
+    margin: auto;
+    
+    display: block;
+   
+}
+
+
+#profile{
+    text-align: end ;
+}
+
+#profile img{
+    width: 112px;
+    height: 500px;
+}
+
+#profile p {
+    font-weight: 500;
+    line-height: 100px;
+}
